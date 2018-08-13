@@ -1,0 +1,48 @@
+body{
+    background-color: #919fa0;
+}
+.header{
+    background-image: url("http://dev-solutions.s3.amazonaws.com/cottontraders/assets/1234_1.jpg");
+}
+.container{
+    width: 100%;
+}
+.logo {
+    float: left;
+    color: white;
+}
+.menu {
+    float: left;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.menu li{
+    float: left;
+    padding: 10px 50px 50px 50px;
+    list-style: none;
+    color: white;
+}
+li:hover {
+    color: black;
+    cursor: pointer;
+}
+.wrapper{
+    float: right;
+    border: 1px solid white;
+    display: block;
+    height:60px;
+    width: 20%;
+}
+
+.sing-up-btn {
+    float: right;
+}
+
+.heading-text-button{
+    background-color: blue;
+    float:left;
+}
+.video-container{
+    float: right;
+}
