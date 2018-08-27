@@ -168,7 +168,7 @@ div#easy-useful-heading p{
 
 #services{
     background-color: white;
-    padding-left: 120px;
+    padding-left: 250px;
 }
 #service-menu-button{
     background-color: lightseagreen;
@@ -194,15 +194,24 @@ div#easy-useful-heading p{
 #service-link{
 
 }
-#triangle{
-padding-left: 200px;
+.triangle{
+float: right;
 }
-.service-button{
-    width: 800px;
+
+#services-menu-nav li{
+    list-style: none;
+    padding-right: 40px;
+    width: 525px;
     border: 1px solid lightgrey;
     border-radius: 5px;
     box-shadow: 5px 0 10px rgba(0,0,0,0.2);
-    padding: 10px;
+    margin: 10px;
+    height: 50px;
+}
+
+.service-img-align{
+    margin-top: 20px;
+    margin-left: 20px;
 }
 /*
 #side-right{
