@@ -92,7 +92,9 @@ a#button:hover{
 }
 #easy-useful{
     background-color: white;
-}
+}#services{
+     background-color: white;
+ }
 #easy-useful-heading{
     text-align: center;
     width: 300px;
@@ -145,9 +147,10 @@ div#easy-useful-heading p{
     text-align: center;
 }
 #get-started{
-    padding-left: 350px;
+    padding-left: 400px;
 }
 #easy-useful-menu{
+    width: 100%;
     overflow: hidden;
     outline: 1px solid #ffffff;
     margin:0;
@@ -155,6 +158,51 @@ div#easy-useful-heading p{
 #easy-useful-menu li {
     float: left;
     list-style: none;
+    margin: 0 auto;
+}
+#services-heading{
+    text-align: center;
+    width: 50%;
+    padding-left:250px;
+}
+
+#services{
+    background-color: white;
+    padding-left: 120px;
+}
+#service-menu-button{
+    background-color: lightseagreen;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px 10px;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
+    width: 850px;
+    text-transform: uppercase;
+    margin: 10px;
+    text-align: center;
+    content: "▼";
+    display: inline;
+}
+#statistics{
+    width: 800px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
+}
+
+#service-link{
+
+}
+#triangle{
+padding-left: 200px;
+}
+.service-button{
+    width: 800px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
+    padding: 10px;
 }
 /*
 #side-right{
