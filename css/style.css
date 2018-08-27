@@ -1,12 +1,170 @@
 body{
-    background-color: #919fa0;
+    background-color: antiquewhite;
+    margin: 0;
 }
+.wrapper{
+    width: 1024px;
+    margin: 0 auto;
+    outline: 1px solid #ffffff;
+    background-image: url("../img/header/hero-banner.jpg");
+}
+
+
 .header{
-    background-image: url("http://dev-solutions.s3.amazonaws.com/cottontraders/assets/1234_1.jpg");
+    height: 77px;
+    padding: 30px 45px;
+    margin-bottom: 10px;
+    outline: 1px solid #ffffff;
 }
-.container{
-    width: 100%;
+
+#logo{
+    float: left;
+    color: white;
+    outline: 1px solid #ffffff;
+    width: 250px;
 }
+
+#menu {
+    width: 500px;
+    overflow: hidden;
+    outline: 1px solid #ffffff;
+    margin: 0 auto;
+}
+
+#menu li {
+    float: left;
+    list-style: none;
+    padding-right: 40px;
+
+}
+li a:hover {
+    color: black;
+    cursor: pointer;
+}
+#sign-up{
+
+    float: right;
+    padding-top: 10px;
+    outline: 1px solid #ffffff;
+}
+#button-sign-up {
+    display: inline-block;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
+    width: 50px;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+.clear{
+    clear: both;
+}
+
+#side-left{
+    float: left;
+    color: white;
+    outline: 1px solid #ffffff;
+    width: 250px;
+    margin-left: 45px;
+    margin-right: 80px;
+}
+
+#button{
+    display: block;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
+    width: 150px;
+    text-transform: uppercase;
+    margin: 10px;
+    text-align: center;
+}
+a#button:hover{
+    background-color: darkblue;
+}
+#easy-useful{
+    background-color: white;
+}
+#easy-useful-heading{
+    text-align: center;
+    width: 300px;
+    padding-left: 350px;
+    outline: 1px solid grey;
+}
+div#easy-useful-heading h2 {
+    color: grey;
+}
+
+div#easy-useful-heading p{
+    color: grey;
+}
+#three-buttons-left{
+    float: left;
+    color: grey;
+    outline: 1px solid #ffffff;
+    width: 200px;
+    text-align: center;
+    padding-left: 90px;
+}
+#three-buttons-right{
+    float: right;
+    color: grey;
+    outline: 1px solid #ffffff;
+    width: 200px;
+    text-align: center;
+    padding-right: 90px;
+}
+
+#three-buttons-center{
+    width: 200px;
+    overflow: hidden;
+    outline: 1px solid #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    color: grey;
+}
+#button-get-started{
+    display: block;
+    background-color: lightseagreen;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px 10px;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
+    width: 150px;
+    text-transform: uppercase;
+    margin: 10px;
+    text-align: center;
+}
+#get-started{
+    padding-left: 350px;
+}
+#easy-useful-menu{
+    overflow: hidden;
+    outline: 1px solid #ffffff;
+    margin:0;
+}
+#easy-useful-menu li {
+    float: left;
+    list-style: none;
+}
+/*
+#side-right{
+    float: right;
+    color: white;
+    outline: 1px solid #ffffff; закрывает весь банер
+}
+*/
+
+/*
 .logo {
     float: left;
     color: white;
@@ -17,16 +175,13 @@ body{
     margin: 0;
     overflow: hidden;
 }
-.menu li{
+.menu li {
     float: left;
     padding: 10px 50px 50px 50px;
     list-style: none;
     color: white;
 }
-li:hover {
-    color: black;
-    cursor: pointer;
-}
+
 .wrapper{
     float: right;
     border: 1px solid white;
@@ -35,8 +190,16 @@ li:hover {
     width: 20%;
 }
 
-.sing-up-btn {
+.button {
+    display: inline-block;
     float: right;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 20px 0;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
 }
 
 .heading-text-button{
@@ -46,3 +209,4 @@ li:hover {
 .video-container{
     float: right;
 }
+/*
