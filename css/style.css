@@ -207,93 +207,106 @@ float: right;
     padding-left: 85px;
     padding-top: 100px;
     color: white;
-    float: left;
-    overflow: hidden;
 }
-#button-get-started-testimonial{
-    background-color: #061E37;
-    display: block;
-    color: white;
-    border-radius: 5px;
-    padding: 15px 10px;
-    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
-    width: 150px;
-    text-transform: uppercase;
-    margin: 0px;
-    text-align: center;
-}
-#testimonial-side-right{
-    float: right;
-    width: 500px;
-    padding-top: 50px;
-}
+
 #testimonial-menu li{
     background-color: white;
-    display: block;
-    border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
-    margin-top: 50px;
-}
-span{
     width: 400px;
-    background-color: white;
-    display: block;
-    height: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+    padding: 5px 20px 20px 20px;
+    list-style-image: url("../img/testimonials/John-avatar.png");
+    background-position: center;
 }
-/*
-#side-right{
-    float: right;
-    color: white;
-    outline: 1px solid #ffffff; закрывает весь банер
-}
-*/
 
-/*
-.logo {
-    float: left;
-    color: white;
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
 }
-.menu {
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+#team{
+    align: center;
+}
+#team-social li{
+    list-style: none;
     float: left;
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    position: relative;
+}
+#team-social ul{
     overflow: hidden;
 }
-.menu li {
-    float: left;
-    padding: 10px 50px 50px 50px;
+#form{
+    background-color: #F0F0F0;
+}
+
+.form-view{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+form{
+    width: 500px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+textarea{
+    width: 500px;
+}
+.form-right{
+    float: right;
+}
+.form-btn-submit{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px 35px;
+    color: white;
+    text-transform: uppercase;
+    border: 1px;
+}
+.form-margin{
+    margin-bottom: 20px;
+}
+#footer{
+    background-color: #061D35;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+.footer-logo{
+    width: 250px;
+}
+.footer-menu1 li{
     list-style: none;
-    color: white;
+    padding: 10px 20px;
+    float: left;
+}
+.footer-menu1 ul{
+    overflow: hidden;
+    width: 500px;
 }
 
-.wrapper{
-    float: right;
-    border: 1px solid white;
-    display: block;
-    height:60px;
-    width: 20%;
+.footer-menu2 li{
+    list-style: none;
+    padding: 10px 20px;
+    float: left;
 }
-
-.button {
-    display: inline-block;
-    float: right;
-    background: transparent;
-    color: white;
-    border: 1px solid white;
-    border-radius: 3px;
-    padding: 5px 10px;
-    margin: 20px 0;
-    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
+.footer-menu3 li{
+    list-style: none;
+    padding-left: 50px;
+    float: left;
 }
-
-.heading-text-button{
-    background-color: blue;
-    float:left;
-}
-.video-container{
-    float: right;
-}
-/*
