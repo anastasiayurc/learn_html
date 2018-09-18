@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Raleway Regular;
+}
+.wrapper{
+    width: 1024px;
+    margin: 0 auto;
+    outline: 1px solid #ffffff;
+    background-image: url("../img/header/hero-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header{
+    padding: 30px 45px;
+    margin-bottom: 10px;
+    outline: 1px solid #ffffff;
+}
+.logo{
+    float: left;
+    display: block;
+}
+.menu ul{
+    overflow: hidden;
+    outline: 1px solid #ffffff;
+    margin: 0 auto;
+    list-style: none;
+}
+.menu li {
+    padding-right: 40px;
+    float: left;
+}
+li a:hover {
+    color: black;
+    cursor: pointer;
+}
+.button-sign-up {
+    display: inline-block;
+    color: white;
+    background-color: #0CBABD;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 24px;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
+    width: 50px;
+    float: right;
+    padding-top: 10px;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+.hero-banner{
+    padding: 30px 40px;
+}
+.side-left{
+    float: left;
+    color: white;
+}
+.side-left h1{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 20px;
+    line-height: 40px;
+}
+.side-left p{
+    font-size: 16px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+.side-right{
+    float: right;
+}
+.button{
+    display: inline-block;
+    color: #061E37;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
+    width: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 20px;
+}
+.button:hover{
+    background-color: #061E37;
+    text: white;
+    display: inline-block;
+}
+.easy-useful{
+    background-color: white;
+    padding: 30px 40px;
+}
+.easy-useful-heading{
+    text-align: center;
+    padding: 30px 40px;
+    line-height: 40px;
+}
+.easy-useful-heading h1{
+    font-size:36px;
+    font-weight: 700;
+}
+.easy-useful-heading h2{
+    font-size: 22px;
+    font-weight: 300;
+    color: grey;
+}
+.easy-useful-heading p{
+    font-size: 16px;
+    color: grey;
+}
+.easy-useful-menu-list li{
+    float: left;
+    width: 33.3%;
+}
+#button-get-started{
+    display: inline-block;
+    background-color: lightseagreen;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px 10px;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
+    width: 150px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#get-started{
+    padding-left: 400px;
+}
+#easy-useful-menu{
+    width: 100%;
+    overflow: hidden;
+    outline: 1px solid #ffffff;
+    margin:0;
+}
+#easy-useful-menu li {
+    float: left;
+    list-style: none;
+    margin: 0 auto;
+}

@@ -1,6 +1,8 @@
 body{
-    background-color: antiquewhite;
     margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Raleway Regular;
 }
 .wrapper{
     width: 1024px;
@@ -239,6 +241,7 @@ i {
 }
 #team{
     align: center;
+    background-color: white;
 }
 #team-social li{
     list-style: none;
@@ -257,6 +260,7 @@ i {
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px 20px;
+    background-color: #F0F0F0;
 }
 form{
     width: 500px;
