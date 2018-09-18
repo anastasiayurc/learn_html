@@ -124,6 +124,17 @@ a{
     float: left;
     width: 33.3%;
 }
+.easy-useful-menu-list h4{
+    font-size: 20px;
+}
+.easy-useful-menu-list p{
+    font-size: 16px;
+    color: grey;git
+}
+.easy-useful-menu-list ul{
+ overflow: hidden;
+}
+
 #button-get-started{
     display: inline-block;
     background-color: lightseagreen;
