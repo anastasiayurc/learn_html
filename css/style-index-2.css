@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-size: 14px;
     line-height: 16px;
-    font-family: Raleway Regular;
+    font-family: 'Raleway', sans-serif;;
 }
 .wrapper{
     width: 1024px;
@@ -25,6 +25,16 @@ body{
     float: left;
     display: block;
 }
+div{
+    text-align: center;
+}
+.menu{
+    display: inline-block;
+    padding-top: 15px;
+}
+.menu li:first-child{
+    padding-left: 0;
+}
 .menu ul{
     overflow: hidden;
     outline: 1px solid #ffffff;
@@ -32,7 +42,7 @@ body{
     list-style: none;
 }
 .menu li {
-    padding-right: 40px;
+    padding-left: 70px;
     float: left;
 }
 li a:hover {
@@ -135,10 +145,14 @@ a{
 }
 .easy-useful-menu-list ul{
     overflow: hidden;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.easy-useful-menu-list li{
+    padding-left: 45px;
 }
 
-#button-get-started{
+#button-get-started {
     display: inline-block;
     background-color: lightseagreen;
     color: white;
@@ -152,7 +166,7 @@ a{
 .easy-useful-menu{
     overflow: hidden;
     outline: 1px solid #ffffff;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 .easy-useful-menu ul {
     float: left;
