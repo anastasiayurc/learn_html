@@ -25,7 +25,7 @@ body{
     float: left;
     display: block;
 }
-div{
+.align-center{
     text-align: center;
 }
 .menu{
@@ -37,7 +37,6 @@ div{
 }
 .menu ul{
     overflow: hidden;
-    outline: 1px solid #ffffff;
     margin: 0 auto;
     list-style: none;
 }
@@ -152,7 +151,7 @@ a{
     padding-left: 45px;
 }
 
-#button-get-started {
+.button-get-started {
     display: inline-block;
     background-color: lightseagreen;
     color: white;
@@ -161,7 +160,6 @@ a{
     box-shadow: 5px 0 10px rgba(0,0,0,0.2);
     width: 150px;
     text-transform: uppercase;
-    text-align: center;
 }
 .easy-useful-menu{
     overflow: hidden;
