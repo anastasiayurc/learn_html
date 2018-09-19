@@ -17,10 +17,9 @@ body{
     display: block;
     clear: both;
 }
-.header{
+#header{
     padding: 30px 45px;
     margin-bottom: 10px;
-    outline: 1px solid #ffffff;
 }
 .logo{
     float: left;
@@ -84,7 +83,6 @@ a{
     display: inline-block;
     color: #061E37;
     background-color: white;
-    border: 1px solid white;
     border-radius: 5px;
     padding: 10px 10px;
     box-shadow: 5px 0 10px rgba(0,0,0,0.2);
@@ -95,7 +93,7 @@ a{
 }
 .button:hover{
     background-color: #061E37;
-    text: white;
+    color: white;
     display: inline-block;
 }
 .easy-useful{
@@ -126,39 +124,42 @@ a{
 }
 .easy-useful-menu-list h4{
     font-size: 20px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .easy-useful-menu-list p{
     font-size: 16px;
-    color: grey;git
+    color: grey;
+    line-height: 20px;
 }
 .easy-useful-menu-list ul{
- overflow: hidden;
+    overflow: hidden;
+    padding-bottom: 30px;
 }
 
 #button-get-started{
     display: inline-block;
     background-color: lightseagreen;
     color: white;
-    border: 1px solid white;
     border-radius: 5px;
     padding: 15px 10px;
     box-shadow: 5px 0 10px rgba(0,0,0,0.2);
     width: 150px;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 50px;
 }
-#get-started{
-    padding-left: 400px;
-}
-#easy-useful-menu{
-    width: 100%;
+.easy-useful-menu{
     overflow: hidden;
     outline: 1px solid #ffffff;
-    margin:0;
+    padding-top: 60px;
 }
-#easy-useful-menu li {
+.easy-useful-menu ul {
     float: left;
     list-style: none;
-    margin: 0 auto;
+}
+.easy-useful-menu li {
+    float: left;
+    list-style: none;
+    width: 25%;
 }
