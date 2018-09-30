@@ -4,6 +4,12 @@ body{
     line-height: 16px;
     font-family: 'Raleway', sans-serif;;
 }
+*{
+    box-sizing: border-box;
+}
+img{
+    display: inline-block;
+}
 .wrapper{
     width: 1024px;
     margin: 0 auto;
@@ -23,7 +29,6 @@ body{
 }
 .logo{
     float: left;
-    display: block;
 }
 .align-center{
     text-align: center;
@@ -37,7 +42,6 @@ body{
 }
 .menu ul{
     overflow: hidden;
-    margin: 0 auto;
     list-style: none;
 }
 .menu li {
@@ -49,17 +53,16 @@ li a:hover {
     cursor: pointer;
 }
 .button-sign-up {
-    display: inline-block;
-    color: white;
+    color: #fff;
     background-color: #0CBABD;
     border: 1px solid white;
     border-radius: 5px;
     padding: 5px 24px;
     box-shadow: 5px 0 10px rgba(0,0,0,0.2);
-    width: 50px;
     float: right;
     padding-top: 10px;
     text-align: center;
+    height: 37px;
 }
 a{
     text-decoration:none;
@@ -73,18 +76,16 @@ a{
     color: white;
 }
 .side-left h1{
-    font-size: 26px;
     text-transform: uppercase;
     font-weight: 700;
-    padding-bottom: 20px;
     line-height: 40px;
+    color: #fff;
+    text-align: left;
 }
 .side-left p{
-    font-size: 16px;
-    padding-bottom: 20px;
-    line-height: 30px;
+    color: #fff;
+    text-align: left;
 }
-
 .side-right{
     float: right;
 }
@@ -95,7 +96,7 @@ a{
     border-radius: 5px;
     padding: 10px 10px;
     box-shadow: 5px 0 10px rgba(0,0,0,0.2);
-    width: 100px;
+    width: 130px;
     text-transform: uppercase;
     text-align: center;
     margin-right: 20px;
@@ -106,42 +107,14 @@ a{
     display: inline-block;
 }
 .easy-useful{
-    background-color: white;
-    padding: 30px 40px;
-}
-.easy-useful-heading{
-    text-align: center;
-    padding: 30px 40px;
-    line-height: 40px;
-}
-.easy-useful-heading h1{
-    font-size:36px;
-    font-weight: 700;
-}
-.easy-useful-heading h2{
-    font-size: 22px;
-    font-weight: 300;
-    color: grey;
-}
-.easy-useful-heading p{
-    font-size: 16px;
-    color: grey;
+    background-color: #fff;
+    padding-top: 60px;
 }
 .easy-useful-menu-list li{
     float: left;
     width: 33.3%;
 }
-.easy-useful-menu-list h4{
-    font-size: 20px;
-    font-weight: 600;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.easy-useful-menu-list p{
-    font-size: 16px;
-    color: grey;
-    line-height: 20px;
-}
+
 .easy-useful-menu-list ul{
     overflow: hidden;
     padding-bottom: 50px;
@@ -165,13 +138,54 @@ a{
     overflow: hidden;
     outline: 1px solid #ffffff;
     padding-top: 40px;
+    padding-bottom: 30px;
 }
 .easy-useful-menu ul {
-    float: left;
     list-style: none;
+    display: inline-block;
 }
 .easy-useful-menu li {
-    float: left;
+    width: 33.3%;
+}
+.easy-useful-menu-footer ul{
     list-style: none;
+    display: inline-block;
+}
+.easy-useful-menu-footer li {
     width: 25%;
 }
+.business{
+    background-color: #80D8FF;
+}
+.download{
+    background-color: #82B1FF;
+}
+.free-installs{
+    background-color: #B186FC;
+}
+.person{
+    background-color: #EA80FC;
+}
+.easy-useful-menu-footer ul{
+    display: inline-block;
+    overflow: hidden;
+}
+.easy-useful-menu-footer li{
+   float: left;
+}
+.easy-useful-menu-footer span img{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.easy-useful-footer{
+    padding-top: 60px;
+    padding-bottom: 140px;
+}
+.text-align {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
