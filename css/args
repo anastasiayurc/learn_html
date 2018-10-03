@@ -1,0 +1,6 @@
+21a267e7-43f6-4a2d-b87d-8444679f9e44
+
+node app.js --configurationFile http://dev-solutions.s3.amazonaws.com/theory/mapping/update/theory-config-file-0203.json -a true -l all -n 30 --apiEndpoint http://qa-3-dam-api-ssl.adis.ws -q bucketID:3e8cfe11-15b1-4eec-8579-667f053577c1 --setFolderId 21a267e7-43f6-4a2d-b87d-8444679f9e44
+
+
+ --msetFolderId 407aa7ee-4380-471e-8138-7d047ae1dd1e

@@ -156,36 +156,140 @@ a{
 }
 .business{
     background-color: #80D8FF;
+    display: block;
+    overflow: hidden;
 }
 .download{
     background-color: #82B1FF;
+    display: block;
+    overflow: hidden;
 }
 .free-installs{
     background-color: #B186FC;
+    display: block;
+    overflow: hidden;
 }
 .person{
     background-color: #EA80FC;
+    display: block;
+    overflow: hidden;
 }
-.easy-useful-menu-footer ul{
-    display: inline-block;
+.easy-useful-menu-footer{
     overflow: hidden;
 }
 .easy-useful-menu-footer li{
-   float: left;
+    float: left;
 }
 .easy-useful-menu-footer span img{
     padding-top: 30px;
+}
+.easy-useful-menu{
     padding-left: 50px;
+    padding-right: 50px;
 }
 .easy-useful-footer{
     padding-top: 60px;
-    padding-bottom: 140px;
 }
-.text-align {
-    display: table-cell;
-    vertical-align: middle;
+.text-align{
+    display: block;
+    padding-left: 150px;
+    padding-top: 47px;
+}
+.image-align{
+    float: left;
+    padding-left: 65px;
+    padding-bottom: 25px;
+}
+.services-heading{
+    text-align: center;
+}
+.services{
+    background-color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.services-menu li {
+    list-style: none;
+    padding-right: 40px;
+    width: 525px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
+    margin: 10px;
+    height: 50px;
+    overflow: hidden;
+}
+.service-img-align{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.triangle{
+    float: right;
+}
+.testimonials{
+    background-image: url("../img/testimonials/testimonial-bg.png");
+    overflow: hidden;
+}
+.services-menu ul{
+    padding-left: 240px;
+}
+.testimonial-side-left{
+    padding-top: 100px;
+    padding-left: 50px;
+    float: left;
+}
+.testimonial-side-right{
+    float: right;
+    padding-top: 70px;
+    padding-right: 50px;
+}
+.testimonial-side-left h1{
+    color: #fff;
+    line-height: 50px;
     text-align: left;
-    padding-left: 20px;
-    padding-bottom: 30px;
 }
 
+.testimonial-side-left p{
+    color: #fff;
+    line-height: 30px;
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+.testimonial-menu li{
+    background-color: white;
+    width: 400px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 5px 0 10px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+    padding: 5px 20px 20px 20px;
+}
+.testimonial-menu li:first-child{
+    list-style-image: url("../img/testimonials/John-avatar.png");
+}
+.testimonial-menu li:last-child{
+    list-style-image: url("../img/testimonials/khalessi-avatar.png");
+}
+.testimonial-menu h3{
+    font-weight: 500;
+}
+ul.testimonial-menu h3{
+    font-weight: bold;
+    color: #000;
+}
+i{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
