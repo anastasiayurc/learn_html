@@ -48,10 +48,6 @@ img{
     padding-left: 70px;
     float: left;
 }
-li a:hover {
-    color: black;
-    cursor: pointer;
-}
 .button-sign-up {
     color: #fff;
     background-color: #0CBABD;
@@ -64,8 +60,7 @@ li a:hover {
     text-align: center;
     height: 37px;
 }
-a{
-    text-decoration:none;
+.menu a{
     color: white;
 }
 .hero-banner{
@@ -208,20 +203,27 @@ a{
     padding-bottom: 50px;
     padding-top: 50px;
 }
+.services-menu a{
+    display: block;
+    height: 50px;
+}
+a.services-menu-text{
+    text-transform: uppercase;
+}
 .services-menu li {
     list-style: none;
-    padding-right: 40px;
-    width: 525px;
-    border: 1px solid lightgrey;
+    border: 1px solid #d3d3d3;
     border-radius: 5px;
     box-shadow: 5px 0 10px rgba(0,0,0,0.2);
-    margin: 10px;
+    margin: 0 0 10px;
     height: 50px;
     overflow: hidden;
 }
 .service-img-align{
-    margin-top: 20px;
-    margin-left: 20px;
+    padding: 20px 20px 20px;
+    float: left;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 .triangle{
     float: right;
@@ -232,7 +234,11 @@ a{
     padding-bottom: 50px;
 }
 .services-menu ul{
-    padding-left: 240px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 550px;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 .testimonial-side-left{
     padding-top: 100px;
@@ -258,8 +264,10 @@ a{
     padding-bottom: 100px;
     text-align: left;
 }
-
-.testimonial-slider li{
+.testimonial-slider{
+    overflow: hidden;
+}
+.testimonial-menu-content{
     background-color: white;
     width: 400px;
     border: 1px solid lightgrey;
@@ -267,9 +275,14 @@ a{
     box-shadow: 5px 0 10px rgba(0,0,0,0.2);
     padding: 20px 20px;
     text-align: left;
+    float: right;
 }
 .testimonial-slider li:first-child{
     margin-bottom: 30px;
+    overflow: hidden;
+}
+.testimonial-slider li:last-child{
+    overflow: hidden;
 }
 .testimonial-slider h3{
     font-weight: 500;
@@ -280,7 +293,7 @@ ul.testimonial-slider h3{
 }
 .testimonial-slider-image{
     float: left;
-    padding-top: 6px;
+    padding-top: 18px;
     padding-right: 15px;
 }
 i{
@@ -310,7 +323,8 @@ i{
 }
 .team-social ul{
     overflow: hidden;
-    padding-left: 430px;
+    width: 189px;
+    margin: 0 auto;
 }
 .team-description h2{
     color: #000;
@@ -381,5 +395,8 @@ textarea {
 }
 .footer-left-menu, .footer-right-menu-nav, .footer-right-menu-social{
     overflow: hidden;
+}
+.footer a{
+    color: #fff;
 }
 
