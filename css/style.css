@@ -175,9 +175,6 @@ img{
 .easy-useful-menu-footer li{
     float: left;
 }
-.easy-useful-menu-footer span img{
-    padding-top: 30px;
-}
 .easy-useful-menu{
     padding-left: 50px;
     padding-right: 50px;
@@ -186,14 +183,13 @@ img{
     padding-top: 60px;
 }
 .text-align{
-    display: block;
-    padding-left: 150px;
+    float: left;
+    padding-left: 30px;
     padding-top: 47px;
 }
 .image-align{
     float: left;
-    padding-left: 65px;
-    padding-bottom: 25px;
+    padding: 30px 0 25px 30px;
 }
 .services-heading{
     text-align: center;
@@ -216,10 +212,13 @@ a.services-menu-text{
     border-radius: 5px;
     box-shadow: 5px 0 10px rgba(0,0,0,0.2);
     margin: 0 0 10px;
-    height: 50px;
     overflow: hidden;
 }
 .service-img-align{
+    margin: 20px 20px 20px;
+    float: left;
+}
+.service-text-align{
     padding: 20px 20px 20px;
     float: left;
     font-weight: 600;
@@ -245,6 +244,10 @@ a.services-menu-text{
     padding-left: 50px;
     float: left;
     text-align: center;
+    width: 450px;
+}
+.testimonial-h1-p{
+    padding-bottom: 80px;
 }
 .testimonial-side-right{
     float: right;
@@ -270,12 +273,15 @@ a.services-menu-text{
 .testimonial-menu-content{
     background-color: white;
     width: 400px;
-    border: 1px solid lightgrey;
+    border: 1px solid #d3d3d3;
     border-radius: 5px;
     box-shadow: 5px 0 10px rgba(0,0,0,0.2);
     padding: 20px 20px;
     text-align: left;
     float: right;
+}
+.testimonial-menu-content h3{
+    text-align: left;
 }
 .testimonial-slider li:first-child{
     margin-bottom: 30px;
@@ -317,13 +323,16 @@ i{
 }
 .team-social li{
     list-style: none;
-    float: left;
+    display: inline-block;
     padding: 10px;
-    position: relative;
+}
+.team-social li a{
+    display: flex;
+    align-items: flex-end;
+    line-height: 30px;
 }
 .team-social ul{
     overflow: hidden;
-    width: 189px;
     margin: 0 auto;
 }
 .team-description h2{
@@ -346,9 +355,12 @@ i{
     width: 500px;
     margin: 0 auto;
 }
-
+.form-view:focus{
+    outline: none;
+}
 textarea {
-    width: 500px;
+    width: 100%;
+    resize: vertical;
 }
 .form-right{
     float: right;
@@ -359,7 +371,7 @@ textarea {
     padding: 10px 35px;
     color: white;
     text-transform: uppercase;
-    border: 1px;
+    border: 1px solid;
 }
 .form-margin{
     margin-bottom: 20px;
@@ -367,10 +379,8 @@ textarea {
 
 .footer {
     background-color: #061E37;
-    padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 150px;
+    overflow: hidden;
+    padding: 100px 50px 150px 100px;
 }
 .footer-left{
     float: left;
@@ -390,8 +400,15 @@ textarea {
 }
 .footer-right-menu-social li{
     float: right;
-    padding-top: 30px;
     padding-left: 30px;
+}
+.footer-right-menu-social a{
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+.footer-right-menu-social ul{
+    padding-top: 50px;
 }
 .footer-left-menu, .footer-right-menu-nav, .footer-right-menu-social{
     overflow: hidden;

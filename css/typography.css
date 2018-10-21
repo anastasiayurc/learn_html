@@ -13,15 +13,21 @@ h1{
     text-align: center;
     padding-bottom: 20px;
     color: #000;
+    line-height: 38px;
 }
 h2{
     font-size: 22px;
     font-weight: 300;
     color: #B0BEC5;
     text-align: center;
+    line-height: 24px;
 }
 h3{
-
+    font-size: 16px;
+    font-weight: 300;
+    color: #B0BEC5;
+    text-align: center;
+    line-height: 18px;
 }
 h4{
     color: #000;
@@ -31,7 +37,7 @@ h4{
     padding-bottom: 30px;
     padding-top: 30px;
 }
-a.{
+a{
     text-decoration: none;
     display: block;
 }
